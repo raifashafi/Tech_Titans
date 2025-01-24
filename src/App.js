@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 // import LoginPage from './components/LoginPage';
 // import RegistrationPage from './components/RegistrationPage';
 import Homepage from './components/Homepage';
+import Awareness from './components/Awareness';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Homepage/>} />
+          <Route path="/awareness" element={<Awareness/>} />
+          {/* <Route path="/awareness" element={<Awareness/>} />
           {/* <Route path="/awareness" element={<Awareness/>} />
           <Route path="/login" element={<LoginPage/>} />
           <Route path="/register" element={<RegistrationPage/>} /> */}

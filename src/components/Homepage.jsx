@@ -8,7 +8,7 @@ const Homepage = () => {
         <div className="content">
           <h1>REDUCE PAPER CUPS USAGE</h1>
           <p>Here's Why...</p>
-          <Link to="" className="btn-link">Learn More</Link>
+          <Link to="/awareness" className="btn-link">Learn More</Link>
         </div>
       </div>
       <style jsx>{`
